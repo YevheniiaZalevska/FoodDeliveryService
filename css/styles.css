@@ -1,0 +1,119 @@
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Remove margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Making it easier to work with images */
+img,
+svg {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+button {
+    padding: 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    font-style: normal;
+    color: currentColor;
+}
+
+/* Smooth scrolling to anchors (anchor links) */
+html {
+    scroll-behavior: smooth;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: overflow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.header {
+    position: relative;
+    display: block;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2c2c2c;
+}
+
+.current-page {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #bbf330;
+}
+
+.b-order-now{
+    border-radius: 30px;
+    border: none;
+    padding: 6px 17px;
+    width: 98px;
+    height: 32px;
+    background: #bbf330;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: right;
+    color: #2c2c2c;
+}
+
+.h-button {
+    padding-right: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+  
